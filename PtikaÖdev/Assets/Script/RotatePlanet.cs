@@ -10,16 +10,16 @@ public class RotatePlanet : MonoBehaviour
     [SerializeField] bool RotateAround=false;
     private void Update()
     {
-        if (RotateAround)
+        if (RotateAround)// güneşin etrafında dönmesini sağlayan kısım
         {
             transform.RotateAround(aroundobj.transform.position, Vector3.up, Speed * Time.deltaTime);
         }
-        if (Rotate)
+        if (Rotate)// kendi etrafında dönmesini sağlan Method 
         {
             transform.Rotate(Vector3.up*Time.deltaTime*Speed);
         }
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)// tam bir tur atıldığında tam tur atıldıgını yazan method
     {
         if (other.CompareTag("Period"))
         {
