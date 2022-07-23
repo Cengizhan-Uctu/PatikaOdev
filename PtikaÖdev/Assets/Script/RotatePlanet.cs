@@ -10,7 +10,7 @@ public class RotatePlanet : MonoBehaviour
     [SerializeField] bool RotateAround=false;
     private void Update()
     {
-        if (RotateAround)// güneşin etrafında dönmesini sağlayan kısım
+        if (RotateAround)// güneşin etrafında dönmesini sağlayan kısım kamera için de bu fonsyonu kullandım
         {
             transform.RotateAround(aroundobj.transform.position, Vector3.up, Speed * Time.deltaTime);
         }
