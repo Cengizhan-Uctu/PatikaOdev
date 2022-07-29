@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99133ec9dbc0ef846be672806a810593, type: 3}
+  m_Name: Dunya
+  m_EditorClassIdentifier: 
+  CelestialName: Earth
+  CelestialDescription: "d\xFCnya"
+  CelestialPrefab: {fileID: 1659934759046340, guid: 1885272d02befb3429e46bfb5a828167, type: 3}
+  planetRotateSpeed: 100
+  planetSelfRotateSpeed: 50
+  parentPlanet: {fileID: 100000, guid: 94e8b543ccfce214cbe3536377799049, type: 3}
